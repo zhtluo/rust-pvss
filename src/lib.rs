@@ -7,6 +7,8 @@ pub mod scrape;
 pub mod simple;
 mod types;
 
+extern crate crypto as cp;
+
 #[cfg(test)]
 mod tests {
     use super::crypto;

@@ -14,4 +14,16 @@ edition = "2018"
 name = "pvss"
 
 [dependencies]
-openssl = "0.10"
+ark-serialize = { git = "https://github.com/arkworks-rs/algebra", default-features = false, features = [ "derive" ] }
+ark-ff = { git = "https://github.com/arkworks-rs/algebra", default-features = false }
+ark-ec = { git = "https://github.com/arkworks-rs/algebra", default-features = false }
+ark-poly = { git = "https://github.com/arkworks-rs/algebra", default-features = false }
+ark-poly-commit = { git = "https://github.com/arkworks-rs/poly-commit" }
+
+ark-std = { git = "https://github.com/arkworks-rs/utils", default-features = false }
+ark-bls12-381 = { git = "https://github.com/arkworks-rs/curves", default-features = false, features = [ "curve" ] }
+
+rand_core = { version = "0.5", default-features = false }
+rand = "*" 
+
+rust-crypto = "0.2.36"
