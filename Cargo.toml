@@ -1,13 +1,7 @@
 [package]
 name = "pvss"
-version = "0.1.1"
-authors = ["Vincent Hanquez <vincent@typed.io>"]
-description = "Publicly verifiable secret sharing implementations"
-homepage = "https://github.com/vincenthz/rust-pvss"
-repository = "https://github.com/vincenthz/rust-pvss"
-license = "MIT"
-keywords = [ "Crypto", "Cryptography", "Secret", "Sharing" ]
-categories = [ "cryptography" ]
+version = "0.1.2"
+authors = ["zhtluo <zhtluo@gmail.com>"]
 edition = "2018"
 
 [lib]

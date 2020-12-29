@@ -1,7 +1,7 @@
 rust-pvss
 =========
 
-[![Build Status](https://img.shields.io/travis/vincenthz/rust-pvss.svg)](https://travis-ci.org/vincenthz/rust-pvss)
+Forked from https://github.com/vincenthz/rust-pvss
 
 This package provide secret sharing schemes which are publicly veriable and recoverable
 using a simple `t` out of `n` `(t,n)` threshold system.
